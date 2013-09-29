@@ -12,7 +12,7 @@ Crafty.scene('Game', function() {
   }
 
   // Player character, placed at 5, 5 on our grid
-  this.player = Crafty.e('PlayerCharacter').at(5, 5);
+  this.player = Crafty.e('PlayerCharacter').at(5, 12);
   this.occupied[this.player.at().x][this.player.at().y] = true;
   
   // Ghost character, placed at 12, 12 on our grid
